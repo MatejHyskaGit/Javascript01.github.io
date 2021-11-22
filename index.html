@@ -9,15 +9,27 @@
 <body>
     <header>
         <h1>Welcome to Nature</h1>
-        <h3>Here are some samples of nature.</h3>
+        <h3>Here are some examples of Nature</h3>
     </header>
-    <div class="img-container">
-        <img src="images/mountain.jpg" alt="mountain" id="mountain">
-        <img src="images/lake.jpg" alt="lake" id="lake">
-        <img src="images/forest.jpg" alt="forest" id="forest">
-        <img src="images/fox.jpeg" alt="fox" id="fox">
-        <img src="images/path.jpg" alt="path" id="path">
-    </div>
-    <script src="scripts/main.js"></script>
+    <main>
+        <section class="sec1">
+            <a data-fslightbox="gallery" data-foo="bar" href="images/fox.jpeg" class="img-open1"></a>
+        </section>
+        <section class="sec2">
+            <a data-fslightbox="gallery" data-foo="bar" href="images/forest.jpg" class="img-open2"></a>
+        </section>
+        <section class="sec3">
+            <a data-fslightbox="gallery" data-foo="bar" href="images/path.jpg" class="img-open3"></a>
+        </section>
+        <section class="sec4">
+            <a data-fslightbox="gallery" data-foo="bar" href="images/lake.jpg" class="img-open4"></a>
+        </section>
+        <section class="sec5">
+            <a data-fslightbox="gallery" data-foo="bar" href="images/mountain.jpg" class="img-open5"></a>
+        </section>
+    </main>
+
+
+    <script src="scripts/fslightbox.js"></script>
 </body>
 </html>
